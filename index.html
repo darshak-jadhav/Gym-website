@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- header section -->
+    <header>
+        <div class="logo">
+            <img src="gymlogo.png">
+        </div>
+        <input type="checkbox" name="check" id="check">
+        <nav>
+            <ul>
+               
+
+                <li id="hm">HOME</li>
+                <li id="abt">ABOUT</li>
+                <li id="fit">FITNESS</li>
+                <li id="amen">AMENITIES</li>
+                <li id="revi">REVIEWS</li>
+                <li id="register">PLANS</li>
+            </ul>
+        </nav>
+        <label for="check"><i class="fa-solid fa-bars-staggered"></i></label>
+    </header>
+
+    <!-- main section  -->
+    <div class="main" id="home">
+        <div class="main_con" data-aos="zoom-in">
+            <h1>BE <br>BEST <br><span>VERSION</span> </h1>
+            <button id="btn" class="btn">JOIN NOW</button>
+        </div>
+    </div>
+
+
+    <!-- about section  -->
+    <div class="about" id="about">
+        <div class="about_con" data-aos="fade-in">
+            <div class="about_left">
+                <h1>ABOUT OUR <span>GYMNASIUM </span></h1>
+                <p>At Darshak's Gym, we believe that a healthy lifestyle is the key to a fulfilling and energetic life. Our state-of-the-art facility is designed to cater to all your fitness needs, providing a perfect blend of cutting-edge equipment and luxurious amenities. Whether you're a seasoned fitness enthusiast or just starting your fitness journey, Darshak's Gym is the ideal destination for you.</p>
+                <button id="btn" class="btn"> KNOW MORE </button>
+            </div>
+            <div class="about_right">
+                <img src="aboutimg.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <!-- fitness section -->
+    <div class="fitness" id="fitness">
+        <h1>FITNESS SECTION</h1>
+        <div class="fitness_con">
+            <div class="card_fitness" id="one">
+                <img src="crossfit2.jpeg" data-aos="fade-right" >
+              <div class="card_fitness_con" data-aos="fade-left">  <h2><span>CROSSFIT</span> CORNER</h2>
+                <p>Unleash intensity with dynamic CrossFit workouts, blending cardio, weightlifting, and gymnastics for a comprehensive fitness challenge.</p>
+                <button id="btn" class="btn"> JOIN NOW</button></div>
+
+            </div>
+            <div class="card_fitness" id="two">
+               
+               <div class="card_fitness_con"  data-aos="fade-right" > <h2><span>WEIGHT TRAINING</span> ZONE</h2>
+                <p>Sculpt your physique with diverse free weights and machines, tailored to all fitness levels for strength and tone.</p>
+                <button id="btn" class="btn"> JOIN NOW</button></div>
+                <img src="weighttraining.jpg" data-aos="fade-left">
+            </div>
+            <div class="card_fitness" id="three">
+                <img src="yoga.jpg"  data-aos="fade-right"  >
+              <div class="card_fitness_con" data-aos="fade-left">  <h2><span>YOGA</span> SANCTUARY</h2>
+                <p>Discover serenity in our yoga studio, fostering flexibility, mindfulness, and a sense of calm through expert-guided sessions.</p>
+                <button id="btn" class="btn"> JOIN NOW </button></div>
+            </div>
+            <div class="card_fitness" id="four">
+               
+               <div class="card_fitness_con"  data-aos="fade-right" > <h2><span>CARDIO</span> HEAVENLY</h2>
+                <p>Energize with treadmills, bikes, and more for a heart-pumping workout that boosts stamina and burns calories.</p>
+                <button id="btn" class="btn"> JOIN NOW </button></div>
+                <img src="cardio.jpg" data-aos="fade-left">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Amenities section -->
+    <div class="amenity" id="amenities">
+        <div class="amenity_con" data-aos="zoom-in-up">
+            <h1>LUXURIOUS <span>AMENITIES</span></h1>
+            <ul>
+                <li><h2>CLIMATE CONTROLLED COMFORT</h2></li>
+                <li><h2>STEAM SERENITY</h2></li>
+                <li><h2>SHOWER SANCTUARY</h2></li>
+                <li><h2>MASSAGE BLISS</h2></li>
+                <li><h2>WELL-TRAINED TRAINERS </h2></li>
+                <li><h2>AQUA AEROBIC POOL</h2></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Plans  -->
+    <div class="plans" id="plans">
+        <h1 data-aos="fade-left">MEMBERSHIP <span>PLANS</span></h1>
+        <div class="plans_con" data-aos="fade-in">
+            <div class="card_plans" id="gym" >
+                <h2>GYM</h2>
+                <h3>₹1500 <span> monthly</span></h3>
+                <h3>₹15000 <span> anually</span></h3>
+                
+                <h2>GYM+CARDIO</h2>
+                <h3>₹2500 <span> monthly</span></h3>
+                <h3>₹25000 <span> anually</span></h3>
+
+                <h2>COUPLES</h2>
+                <h3>₹4000 <span> monthly</span></h3>
+                <h3>₹40000 <span> anually</span></h3>
+            </div>
+            <div class="card_plans" id="yoga">
+                <h2>YOGA</h2>
+                <h3>₹3000 <span> monthly</span></h3>
+                <h3>₹30000 <span> anually</span></h3>
+            </div>
+            <div class="card_plans" id="crossfit">
+                <h2>CROSSFIT TRAINING</h2>
+                <h3>₹2000 <span> monthly</span></h3>
+                <h3>₹20000 <span> anually</span></h3>
+            </div>
+            <div class="card_plans" id="trainer">
+                <h2>PERSONAL TRAINER</h2>
+                <h3>₹3000 <span> monthly</span></h3>
+                <h3>₹25000 <span> anually</span></h3>
+            </div>
+            <div class="card_plans" id="steam">
+                <h2>STEAMROOM ACCESS</h2>
+                <h3>₹2000 <span> monthly</span></h3>
+                <h3>₹18000 <span> anually</span></h3>
+            </div>
+        </div>
+        <button id="btn" class="btn"  data-aos="fade-right" data-aos-offset="120"> CONTACT US </button>
+    </div>
+
+    <!-- reviews section  -->
+    <div class="review" id="review">
+        <h1>CLIENTS <span>REVIEW</span></h1>
+        <div class="review_con">
+            <div class="card_review"  data-aos="zoom-in-right">
+                <h2>"</h2>
+                <p>"Darshak's Gym is my fitness haven! The Cardio Oasis keeps me motivated, and the Massage Bliss is pure luxury. The staff is friendly and knowledgeable. A holistic fitness experience that I highly recommend!"</p>
+                <h3>-Ryan goslin.</h3>
+            </div>
+            <div class="card_review"  data-aos="zoom-in">
+                <h2>"</h2>
+                <p>"Exceptional gym! The Weight Training Zone is top-notch, and the CrossFit Corner is intense. The Shower Sanctuary and Massage Bliss make recovery a joy. Darshak's Gym is my fitness sanctuary!"</p>
+                <h3>-Steveie Roe.</h3>
+            </div>
+            <div class="card_review" data-aos="zoom-in-left">
+                <h2>"</h2>
+                <p>"Darshak's Gym is fantastic! The Aqua Aerobics Pool is refreshing, and the Lounge Retreat is a great chill-out spot. The staff is attentive, and the amenities are top-notch. Definitely my go-to fitness spot!"
+                </p>
+                <h3>-John smith .</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- contacts page  -->
+    <div class="contact" id="contact">
+        <!-- <img src="gymlogo.png"> -->
+            <h1   ><span>CONTACT</span> 
+            <br>US TO JOIN </h1>
+    </div>
+    <div class="contact_info">
+        <div class="address">
+            <h1>PHYSICAL ADDRESS</h1>
+            <h2>102, MHATRE ENCLAVE, DOMBIVLI CROSS ROAD, 421 202. </h2>
+        </div>
+        <div class="email">
+            <h1>EMAIL ADDRESS</h1>
+            <h2>darshaksgym123@gmail.com</h2>
+        </div>
+        <div class="phonenumber">
+            <h1>CONTACT NUMBERS</h1>
+            <h2>+91 8796 6754</h2>
+            <h2>+91 6789 9987</h2>
+        </div>
+         <div class="websiteby">
+            <h1>Website by~</h1>
+            <a href="https://darshak-jadhav.github.io/Portfolio/">Darshak Jadhav</a> 
+        </div>
+    </div>
+<script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:400,
+        duration:1000
+      });
+    </script>
+</body>
+</html>
